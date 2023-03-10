@@ -1,0 +1,41 @@
+.list-user-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.list-header {
+  display: flex;
+  flex-direction: row;
+  background-color: #2f4858;
+  color: white;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+
+.list-header-avatar {
+  width: 100px;
+}
+
+.list-header-id {
+  width: 50px;
+}
+
+.list-header-name {
+  width: 100px;
+}
+
+.list-user-list-member > img {
+  width: 80px;
+}
+
+.list-user-list-member {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-user-list-member-link {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+}
